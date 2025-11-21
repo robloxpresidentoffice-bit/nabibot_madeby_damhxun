@@ -25,7 +25,7 @@ const client = new Client({
 
 // 설정 값들
 const REWARD_ROLE = "1441427004112244858";  // 인증 역할 ID
-const LOG_CHANNEL_ID = "로그채널ID를여기에"; // 입장/퇴장 로그 보낼 채널 ID
+const LOG_CHANNEL_ID = "1441407554893643859"; // 입장/퇴장 로그 보낼 채널 ID
 const TIMEOUT_DURATION = 60 * 1000; // 1분 타임아웃
 const MAX_WARN = 10; // 안내 메시지 10회 후 제재
 
