@@ -40,9 +40,9 @@ client.on("messageCreate", async (msg) => {
     if (!msg.content.startsWith("!닉네임")) return;
 
     const embed = new EmbedBuilder()
-        .setTitle("<:crown:1441426161589551135> 𝑨𝑰𝑶𝑵2 나비 레기온 게임 닉네임을 작성해주세요!")
+        .setTitle("<:crown:1441426161589551135> 𝑨𝑰𝑶𝑵2 게임 닉네임을 작성해주세요!")
         .setDescription(
-            "𝑨𝑰𝑶𝑵2 나비 레기온 커뮤니티에 오신 것을 환영합니다!\n닉네임을 작성하시고 활동해주세요!"
+            "𝑨𝑰𝑶𝑵2 게임 커뮤니티에 오신 것을 환영합니다!\n닉네임을 작성하시고 활동해주세요!"
         )
         .setColor("#FFD700");
 
