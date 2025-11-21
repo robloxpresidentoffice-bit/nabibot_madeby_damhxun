@@ -302,8 +302,5 @@ http
     console.log(`Web server running on port ${PORT}`);
   });
 
+// 디스코드 로그인
 client.login(process.env.TOKEN);
-
-    console.log(`Web server running on port ${PORT}`);
-});
-
