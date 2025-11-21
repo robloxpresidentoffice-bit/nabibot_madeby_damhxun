@@ -127,3 +127,18 @@ client.on("interactionCreate", async (interaction) => {
 });
 
 client.login(process.env.TOKEN);
+
+// -------------------------------
+// Render Web Service용 포트 오픈
+// -------------------------------
+const http = require("http");
+
+const PORT = process.env.PORT || 3000;
+
+http.createServer((req, res) => {
+    res.writeHead(200, { "Content-Type": "text/plain" });
+    res.end("Bot is running!");
+}).listen(PORT, () => {
+    console.log(`Web server running on port ${PORT}`);
+});
+
